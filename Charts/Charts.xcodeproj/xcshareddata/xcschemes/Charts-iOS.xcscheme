@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0830"
+   LastUpgradeVersion = "0820"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2FC2DB921F56D081002250BA"
-               BuildableName = "ChartsDemo.app"
-               BlueprintName = "ChartsDemo"
-               ReferencedContainer = "container:ChartsDemo.xcodeproj">
+               BlueprintIdentifier = "5BA8EC3F1A9D14DC00CE82E1"
+               BuildableName = "Charts.framework"
+               BlueprintName = "Charts-iOS"
+               ReferencedContainer = "container:Charts.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2FC2DBAB1F56D082002250BA"
-               BuildableName = "ChartsDemoTests.xctest"
-               BlueprintName = "ChartsDemoTests"
-               ReferencedContainer = "container:ChartsDemo.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2FC2DBB61F56D082002250BA"
-               BuildableName = "ChartsDemoUITests.xctest"
-               BlueprintName = "ChartsDemoUITests"
-               ReferencedContainer = "container:ChartsDemo.xcodeproj">
+               BlueprintIdentifier = "06AEE7A11BDC3F8B009875AE"
+               BuildableName = "ChartsTests.xctest"
+               BlueprintName = "ChartsTests"
+               ReferencedContainer = "container:Charts.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2FC2DB921F56D081002250BA"
-            BuildableName = "ChartsDemo.app"
-            BlueprintName = "ChartsDemo"
-            ReferencedContainer = "container:ChartsDemo.xcodeproj">
+            BlueprintIdentifier = "5BA8EC3F1A9D14DC00CE82E1"
+            BuildableName = "Charts.framework"
+            BlueprintName = "Charts-iOS"
+            ReferencedContainer = "container:Charts.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -71,16 +61,22 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2FC2DB921F56D081002250BA"
-            BuildableName = "ChartsDemo.app"
-            BlueprintName = "ChartsDemo"
-            ReferencedContainer = "container:ChartsDemo.xcodeproj">
+            BlueprintIdentifier = "5BA8EC3F1A9D14DC00CE82E1"
+            BuildableName = "Charts.framework"
+            BlueprintName = "Charts-iOS"
+            ReferencedContainer = "container:Charts.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "FB_REFERENCE_IMAGE_DIR"
+            value = "$(SOURCE_ROOT)/$(PROJECT_NAME)Tests/ReferenceImages"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -90,16 +86,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2FC2DB921F56D081002250BA"
-            BuildableName = "ChartsDemo.app"
-            BlueprintName = "ChartsDemo"
-            ReferencedContainer = "container:ChartsDemo.xcodeproj">
+            BlueprintIdentifier = "5BA8EC3F1A9D14DC00CE82E1"
+            BuildableName = "Charts.framework"
+            BlueprintName = "Charts-iOS"
+            ReferencedContainer = "container:Charts.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
